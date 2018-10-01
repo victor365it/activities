@@ -1,0 +1,12 @@
+import datetime
+
+#Assuming for testing purposes that the user will not enter an invalid value
+name = input("Please enter your name: ")
+age = int(input("Now enter your age: "))
+
+Year = datetime.datetime.now().year + (100-age)
+
+#Extra
+repetition = int(input("Enter number of lines to repeat: "))
+
+print(("Hi " + name + ", you will be 100 years old in " + str(Year) + ".\n") * repetition)
