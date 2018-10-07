@@ -1,0 +1,11 @@
+dict1 = {'Casa1' : '23' , 'Casa2' : '2406' , 'Edificio28' : '54'}
+
+file = open('myFile.csv' , 'w')
+
+for k in dict1.keys():
+    file.write(k)
+    file.write(',')
+    file.write(dict1[k])
+    file.write('\n')
+
+file.close()
