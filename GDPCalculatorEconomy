@@ -1,0 +1,8 @@
+GDP = float(input("Enter GPD: "))
+growthRate = float(input("Enter economy growth rate: "))
+totalYears = int(input("Enter the total of years to calculate: "))
+
+for i in range(totalYears):
+    GDP += (GDP * growthRate)/100
+
+print("Total GDP will be %.2f" % (GDP))
