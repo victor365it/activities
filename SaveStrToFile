@@ -1,0 +1,7 @@
+def saveToFile(myString , myFile):
+    with open(myFile , 'w+') as f:
+        f.write(myString)
+
+myS = input("Please enter your line: ")
+myF = 'text.txt'
+saveToFile(myS , myF)
