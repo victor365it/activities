@@ -1,0 +1,7 @@
+print("This is the story: I am a tall guy \
+working every 5 days with Anita")
+height = input("Are you tall or small? ")
+days = int(input("How often are you working? "))
+name1 = input("Who are you working with? ")
+print("This is the new story: I am a" , height.lower() , "guy \
+working every" , days, "days with" , name1.title())
